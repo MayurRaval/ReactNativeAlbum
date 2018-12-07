@@ -15,8 +15,8 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View>
-        <Header headerText = {'albums 123'}/>
+      <View style={{ flex:1 }}>
+        <Header headerText = {'Album'}/>
         <AlbumList/>
       </View>
     );
